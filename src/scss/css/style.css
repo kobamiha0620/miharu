@@ -1,0 +1,200 @@
+
+/* ここから設定 */
+body, input, textarea, button, select{
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h3, h4, h5, h6{
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+#shopify-section-header{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFF;
+    opacity: 1;
+}
+
+.announcement-bar__message{
+    font-size: 18px;   
+    font-weight: thin; 
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+}
+.empty__box{
+    height: 78px;
+    display: block;
+}
+#shopify-section-hero-2{
+    padding-top: 0;
+}
+#shopify-section-16309031270edc303b{
+    padding-bottom: 0;
+}
+.rich-text__text--medium a{
+    text-decoration: underline;
+}
+#ohagi__intro p{
+    line-height: 1.88;
+}
+
+#ohagi__intro .line__img--wrapper{
+    text-align: center;
+    margin-top: -8px;
+}
+#ohagi__intro .line__img{
+    width: 550px;
+    display: inline-block;
+}
+#ohagi__intro .top__explain--txt{
+    padding: 25px 0 30px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.88;
+    margin: -12px　auto 0;
+}
+#ohagi__intro .ohagi__img{
+    text-align: center;
+    margin: 0 0 14px;
+
+}
+#ohagi__intro .ohagi__img img{
+    width: 280px;
+    font-size: 0;
+    line-height: 0;
+}
+#ohagi__intro .ohagi__name{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-size: 18px;   
+    font-weight: thin; 
+    text-align: center;
+    color: #454545;
+    margin: 0;
+}
+
+#ohagi__intro .ohagi_link{
+    text-align: center;
+    font-size: 17px;
+}
+#ohagi__intro .ohagi_btn{
+    white-space: nowrap;
+    display: block;
+    width: 280px; 
+    height: 65px;
+    margin: 20px auto;
+    background: url('https://cdn.shopify.com/s/files/1/0589/4556/8944/files/btn_topOhagi.png?v=1630913936') no-repeat 0 0;
+    background-size: 100% auto;
+    text-indent: -9999px;
+}
+
+#ohagi__intro .ohagi_link a{
+    color: #B44E46;
+    text-decoration: none;
+}
+
+#ohagi__intro  a:hover{
+    opacity: 0.7;
+    display: block;
+}
+
+/* テキスト付き画像 */
+.ohagi__txtImg--ttl{
+    text-align: center;
+    color: #4E4C4B;
+    font-size: 47px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    margin: 0 auto 60px;
+    line-height: 1.4;
+}
+.ohagi__txtImg--ttl02{
+    text-align: center;
+    color: #4E4C4B;
+    font-size: 47px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    margin: 0 auto 30px;
+    line-height: 1.4;
+}
+.ohagi__txtImg{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ohagi__txtImg--img{
+    width: 47%;
+}
+.ohagi__txtImg--txt{
+    width: 47%;
+
+}
+.ohagi__txtImg--sup{
+    color: #999999;
+    font-size: 19px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    line-height: 1;
+    margin: 0 0 20px;
+}
+.ohagi__txtImg--subttl{
+    font-size: 28px;
+    color: #4E4C4B;
+    padding-bottom: 10px;
+}
+.ohagi__txtImg--stxt{
+    font-size: 17px;
+    color: #333;
+    line-height: 1.88;
+}
+
+/* Producer */
+.ohagi__Produceimg{
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+.ohagi__Produceimg--txt{
+    font-size: 17px;
+    color: #333;
+    line-height: 1.88;
+    text-align: center;
+}
+.ohagi__Produceimg--stxt{
+    font-size: 12px;
+    line-height: 2;
+    max-width: 1000px;　
+}
+
+ /* SP設定 */
+@media only screen and (max-width: 749px) {
+    .empty__box{
+        height: 70px;
+    }
+    #ohagi__intro .line__img{
+        width: 80vw;
+    }
+    #ohagi__intro .ohagi__img img{
+        width: 53vw;
+    }
+    #ohagi__intro p br{
+        display: none;
+    }
+    .ohagi__txtImg{
+        display: block; 
+    }
+    .ohagi__txtImg--img{
+        width: 100%;
+    }
+    .ohagi__txtImg--txt{
+        width: 100%;
+    }
+    .ohagi__txtImg--subttl{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .ohagi__txtImg--txt{
+        padding-top: 50px;
+    }
+}

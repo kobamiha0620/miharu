@@ -1,0 +1,41 @@
+$BP: 749px;
+$BP_PC: 1080px;
+
+
+//COLOR
+$BG: #f1f1ea; //背景色
+$BASE: #622728; //文字色
+$CR2: #000000; //文字色2
+
+//font-size
+$PC_FONT: 16px;
+$PC_FONT_TTL: 25px;
+$PC_FONT_S: 14px;
+$SP_FONT: 13px;
+$SP_FONT_TTL: 20px;
+
+
+//PC幅
+
+html { scroll-behavior: smooth;}
+
+
+/* SP 画面サイズが768px以下 */
+@media screen and (max-width: $BP) {
+    .pc{
+        display: none;
+    }
+    .sp{
+        display: block;
+    }
+}
+
+/* PC 画面サイズが769px以上 */
+@media screen and (min-width: $BP+1) {
+    .pc{
+        display: block;
+    }
+    .sp{
+        display: none;
+    }
+}
