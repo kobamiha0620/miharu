@@ -1,5 +1,0 @@
-AuthUserfile .htpasswd
-AuthGroupfile /dev/null
-AuthName "パスワードを入力してください"
-AuthType Basic
-require valid-user
